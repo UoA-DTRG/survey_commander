@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="commander" type="commander_node" name="commander" output="screen" required="true">
+        <param name="spin_at_start" value="false" />
+        <param name="target_speed" value="1.0" />
+	    <param name="num_survey_rows" value="5" />
+	    <param name="exploration_distance" value="20.0" />
+        <param name="target_height_above_ground" value="3.5" />
+    </node>
+</launch>
