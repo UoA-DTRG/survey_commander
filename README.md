@@ -1,5 +1,6 @@
 # Survey Commander
-This repository contains code for trajectory planning within complex, 3D spaces
+This repository contains code for autonomous surveying of plantation forests.
+[![Autonomous UAV Flight in Plantation Forests](https://i.ytimg.com/vi/99vuafVdsUM/maxresdefault.jpg)](https://www.youtube.com/watch?v=99vuafVdsUM "Autonomous UAV Flight in Plantation Forests")   
 
 ## Prerequisites
 While this repository should remain compatible with other versions of ROS1/PX4, it has been developed and tested with the following:
@@ -8,7 +9,7 @@ While this repository should remain compatible with other versions of ROS1/PX4, 
  - ROS1 Noetic
  - PX4 SITL v1.12.3
 
-This planner has been specifically designed to work with our trajectory planner stack (Survey Planner)[]. If you haven't done so already, setup Survey Tracker first in your catkin workspace.
+This planner has been specifically designed to work with our trajectory planner stack Survey Planner. If you haven't done so already, setup Survey Tracker first in your catkin workspace.
 
 ## Installation
 Since Survey Commander depends heavily on Survey Planner and Survey Tracker, we will assume that you've already set up our trajectory tracker before continuing.
